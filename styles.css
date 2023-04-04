@@ -1,13 +1,34 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body{
+    background-color: beige;
+}
 
 h1{
 text-align: center;
-color:blue;
+color:azure;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding-top: 30px;
 }
 button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50px;
+    border-radius: 20px;
 }
 p{ 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Roboto:ital', sans-serif;
+    color:azure;
+    padding-top: 10px;
+    font-size: large;
+}
+
+.container{
+
+    background-color: rgb(5, 25, 25);
+    margin: 100px auto;
+    text-align: center;
+    height: 30vh;
+    width:750px;
+    border-radius: 30px;
 }
